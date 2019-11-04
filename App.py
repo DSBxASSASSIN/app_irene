@@ -16,7 +16,7 @@ root.title("test app v1.0")
 canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH)
 canvas.pack()
 
-background_image = tk.PhotoImage(file='../images/main.gif')
+background_image = tk.PhotoImage(file='images/main.gif')
 background_label = tk.Label(root, image=background_image)
 background_label.place(relwidth=1, relheight=1)
 
